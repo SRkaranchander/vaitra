@@ -1,0 +1,45 @@
+{
+    "manifest_version": 3,
+    "name": "Vaitra - Safe Savor",
+    "version": "1.0",
+    "description": "A Chrome extension to alert users about allergens in products.",
+    "permissions": [
+        "storage",
+        "tabs"
+    ],
+    "host_permissions": [
+        "*://*.walmart.com/*"
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "allergen_alternatives.json",
+                "cross_reactive_allergens.json"
+            ],
+            "matches": ["*://*.walmart.com/*"]
+        }
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "48": "logo.png",
+            "128": "logo.png",
+            "256": "logo.png"
+        }
+    },
+    "icons": {
+        "48": "logo.png",
+        "128": "logo.png",
+        "256": "logo.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://*.walmart.com/*"],
+            "js": ["content.js"],
+            "run_at": "document_end"
+        }
+    ]
+}

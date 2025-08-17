@@ -1,0 +1,56 @@
+{
+    "Milk": [
+        "Milk", "Whole milk", "Skim milk", "Low-fat milk", "Fat-free milk", "Lactose-free milk",
+        "Butter", "Butter fat", "Butter oil",
+        "Cheese", "Cheddar", "Brie", "Feta", "Paneer", "Ricotta", "Cottage cheese",
+        "Yogurt", "Probiotic yogurt",
+        "Cream", "Heavy cream", "Sour cream", "Cream powder",
+        "Ghee", "Buttermilk", "Condensed milk", "Evaporated milk",
+        "Milk powder", "Dried milk solids",
+        "Whey", "Whey protein", "Whey powder", "Hydrolysates",
+        "Casein", "Caseinates", "Casein hydrolysates", "Milk protein concentrate", "Milk protein isolate",
+        "Lactose", "Lactalbumin", "Lactoglobulin", "Lactoferrin", "Lactulose",
+        "Artificial butter flavor", "Artificial cheese flavor",
+        "Ice cream", "Pudding", "Custard",
+        "Coffee creamers", "Chocolate with milk"
+    ],
+    "Eggs": [
+        "Egg", "Egg whites", "Egg yolk", "Albumin", 
+        "Ovalbumin", "Ovovitellin", "Globulin", "Lysozyme", 
+        "Lecithin (egg-derived)"
+    ],
+    "Peanuts": [
+        "Peanut", "Groundnut", "Arachis", "Peanut oil", 
+        "Peanut butter", "Peanut flour", "Cold-pressed peanut oil",
+        "Satay sauce"
+    ],
+    "Tree Nuts": [
+        "Almond", "Walnut", "Cashew", "Pistachio", 
+        "Pecan", "Hazelnut", "Brazil nut", "Macadamia nut", 
+        "Marzipan"
+    ],
+    "Soy": [
+        "Soy", "Soybean", "Soy protein", "Soy lecithin", 
+        "Tofu", "Tempeh", "Miso", "Edamame", 
+        "Soy milk", "Soy sauce"
+    ],
+    "Sesame": [
+        "Sesame seed", "Sesame oil", "Tahini", 
+        "Gingelly", "Benne", "Sesamol", "Sesamum indicum"
+    ],
+    "Wheat": [
+        "Wheat", "Wheat flour", "Gluten", "Wheat starch", 
+        "Semolina", "Farina", "Couscous", "Durum", 
+        "Spelt", "Einkorn"
+    ],
+    "Shellfish": [
+        "Shrimp", "Crab", "Lobster", "Prawn", 
+        "Crayfish", "Mollusks", "Clams", "Oysters", 
+        "Scallops", "Snails"
+    ],
+    "Fish": [
+        "Salmon", "Tuna", "Cod", "Haddock", 
+        "Anchovy", "Sardine", "Mackerel", "Tilapia", 
+        "Fish sauce", "Surimi"
+    ]
+}

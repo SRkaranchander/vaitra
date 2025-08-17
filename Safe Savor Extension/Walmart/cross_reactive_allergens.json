@@ -1,0 +1,43 @@
+{
+    "Milk": {
+        "Goat milk": 90,
+        "Mare milk": 4,
+        "Beef": 10
+    },
+    "Peanut": {
+        "Other legumes": 5,
+        "Tree nuts": 35,
+        "Lupin": 16.5
+    },
+    "Lentil": {
+        "Chickpea": 81,
+        "Green pea": 81
+    },
+    "Tree nuts": {
+        "Pistachio-cashew": 67,
+        "Walnut-pecan": 87.5,
+        "Peanut or other tree nuts": 40
+    },
+    "Fish": {
+        "Other fish": 50
+    },
+    "Eggs": {
+        "Quail eggs": 20,
+        "Duck eggs": 15
+    },
+    "Shellfish": {
+        "Crustacean-mollusk": 15,
+        "Mollusk-mollusk": 50,
+        "Crustacean-crustacean": 50
+    },
+    "Wheat": {
+        "Rye": 20,
+        "Barley": 20,
+        "Rice": 5,
+        "Oats": 5,
+        "Corn": 5
+    },
+    "Beef": {
+        "Cow's milk": 90
+    }
+}
