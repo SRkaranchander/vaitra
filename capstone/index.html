@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vaitra - Allergen Detection Extension</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="assets/logo.png" alt="Logo" />
+      </div>
+      <h1 style="text-align:start; color: #013735; ">Vaitra</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </nav>
+    </header>
+
+<section class="video-section" style="position: relative; width: 100%; max-width: 1200px; height: 80vh; margin: 100px auto; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
+  <video id="bgVideo" autoplay muted loop playsinline 
+         style="width: 100%; height: 100%; object-fit: cover;">
+    <source src="Untitled video - Made with Clipchamp.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+</section>
+<script>
+  // Wait until the video is loaded before changing playback rate
+  const video = document.getElementById('bgVideo');
+  video.playbackRate = 2.0;
+</script>
+
+
+
+
+    <!-- About Section -->
+    <!-- Add this to your <head> to use Poppins font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+<section id="about" class="section" style="font-family: 'Poppins', sans-serif; height: 100vh; display: flex; flex-direction: column; justify-content: space-between;">
+  <!-- Top Section: About Us and Image -->
+  <div style="display: flex; justify-content: space-between; align-items: center; height: 50%; padding: 0 50px;">
+    <div style="flex: 1; text-align: left; padding-right: 30px;">
+      <h2 style="font-size: 3em; font-weight: 700; color: #0a726f; margin-bottom: 20px;">About Us</h2>
+      <p style="font-size: 1.5em; color: #000000; line-height: 1.6;">
+        Safe Savor revolutionizes online shopping by instantly exposing hidden allergens, so you can make worry-free choices every time —because your health matters.
+      </p>
+    </div>
+    <div style="flex: 1; display: flex; justify-content: center; align-items: center;">
+      <!-- Square Image Placeholder -->
+      <div style="width: 500px; height: 350px; border: 3px solid #0a726f; box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); display: flex; justify-content: center; align-items: center;">
+        <img src="assets/vsn.jpg" alt="Allergen Detection" style="width: 90%; height: 90%; object-fit: cover;"/>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom Section: Vision -->
+  <div style="height: 50%; padding: 0 50px; display: flex; align-items: center;">
+    <div style="flex: 1;">
+      <h3 style="font-size: 3em; font-weight: 700; color: #0a726f; margin-bottom: 20px;">Vision</h3>
+      <p style="font-size: 1.5em; color: #000000; line-height: 1.6;">
+       To create a world where allergen detection is effortless, reliable, and accessible to everyone—empowering every online shopper to choose products confidently, ensuring safety and peace of mind in every environment.      
+      </p>
+    </div>
+  </div>
+</section>
+
+      
+      
+
+<!-- Features Section -->
+<section id="features" class="section">
+  <h2>Key Features</h2>
+
+  <!-- First Row -->
+  <div style="display: flex; justify-content: center; gap: 40px; margin: 20px; flex-wrap: nowrap;">
+    <div style="flex: 1; max-width: 300px; background: #e6f4f3; padding: 20px; border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+      <h3 style="color: #0a726f;">🔍 Real-Time Allergen Scan</h3>
+      <p>Detect allergens on shopping websites instantly using our Chrome extension.</p>
+    </div>
+
+    <div style="flex: 1; max-width: 300px; background: #e6f4f3; padding: 20px; border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+      <h3 style="color: #0a726f;">📊 User-Friendly Alerts</h3>
+      <p>Get clear alerts with highlighted ingredients and warning messages if allergens are found.</p>
+    </div>
+
+    <div style="flex: 1; max-width: 300px; background: #e6f4f3; padding: 20px; border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+      <h3 style="color: #0a726f;">👁️ Minimal UI Clutter</h3>
+      <p>No unnecessary icons or notifications—only displays info when needed, maintaining a clean shopping experience.</p>
+    </div>
+  </div>
+
+  <!-- Second Row -->
+  <div style="display: flex; justify-content: center; gap: 40px; margin: 20px; flex-wrap: nowrap;">
+    <div style="flex: 1; max-width: 300px; background: #e6f4f3; padding: 20px; border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+      <h3 style="color: #0a726f;">💾 Persistent Allergen Storage</h3>
+      <p>Save and manage your allergen preferences directly from the extension popup.</p>
+    </div>
+
+    <div style="flex: 1; max-width: 300px; background: #e6f4f3; padding: 20px; border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+      <h3 style="color: #0a726f;">🔄 DOM Monitoring</h3>
+      <p>Automatically re-scans when content changes dynamically on the product page.</p>
+    </div>
+
+    <div style="flex: 1; max-width: 300px; background: #e6f4f3; padding: 20px; border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+      <h3 style="color: #0a726f;">⚠️ Allergen Detection</h3>
+      <p>Compares extracted ingredients with the user’s saved allergen list and alerts them if any allergens are detected.</p>
+    </div>
+  </div>
+</section>
+
+
+            
+
+    <!-- Reviews Section -->
+<section id="reviews" class="section">
+    <h2>Customer Reviews</h2>
+    <div class="reviews-container">
+      <div class="review-box">
+        <img src="assets/4str.jpg" alt="Review 1" style="width: 50px; height: auto;">
+        <p>"Safe Savor has made shopping so much safer for me! I don't have to worry about hidden allergens anymore!"</p>
+        <div class="name">Jane Doe</div>
+      </div>
+      <div class="review-box">
+        <img src="assets/5str.jpg" alt="Review 2" style="width: 50px; height: auto;">
+        <p>"As a parent of a child with severe allergies, this tool is a game-changer!"</p>
+        <div class="name">John Smith</div>
+      </div>
+      <div class="review-box">
+        <img src="assets/5str.jpg" alt="Review 3" style="width: 50px; height: auto;">
+        <p>"I can now shop online with peace of mind, knowing my allergens will be flagged immediately!"</p>
+        <div class="name">Emily Davis</div>
+      </div>
+      <div class="review-box">
+        <img src="assets/4str.jpg" alt="Review 1" style="width: 50px; height: auto;">
+        <p>"Safe Savor has made shopping so much safer for me! I don't have to worry about hidden allergens anymore!"</p>
+        <div class="name">Jane Doe</div>
+      </div>
+      <div class="review-box">
+        <img src="assets/4str.jpg" alt="Review 2" style="width: 50px; height: auto;">
+        <p>"As a parent of a child with severe allergies, this tool is a game-changer!"</p>
+        <div class="name">John Smith</div>
+      </div>
+      <div class="review-box">
+        <img src="assets/4str.jpg" alt="Review 3" style="width: 50px; height: auto;">
+        <p>"I can now shop online with peace of mind, knowing my allergens will be flagged immediately!"</p>
+        <div class="name">Emily Davis</div>
+      </div>
+    </div>
+  </section>
+  
+    <!-- FAQ Section -->
+    <section id="faq" class="section">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-container">
+        <div class="faq-box">
+          <h3>How do I add my allergens?</h3>
+          <p>Simply enter your allergens in the popup form that appears on clicking the safe savor extension icon. You'll receive alerts based on the allergens you've selected.</p>
+        </div>
+        <div class="faq-box">
+          <h3>Is Safe Savor available on mobile browsers?</h3>
+          <p>Currently, Safe Savor is available for desktop browsers, but mobile support is coming soon!</p>
+        </div>
+        <div class="faq-box">
+            <h3>Is this service free?</h3>
+            <p>This service is absolutely free</p>
+          </div>
+          <div class="faq-box">
+            <h3>Will all my browsing data be stored?</h3>
+            <p>Only the data related to online shopping will be stored, with regards to the site’s terms and conditions. Other than that, your data will not be stored including the browser history.</p>
+          </div>
+      </div>
+    </section>
+  
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 Vaitra. All rights reserved.</p>
+    </footer>  
+    <script src="script.js" defer></script>
+    </body>
+</html>
